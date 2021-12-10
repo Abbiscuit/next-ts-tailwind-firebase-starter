@@ -1,4 +1,4 @@
-# Next@12 Starter Kit with TypeScript, Firebase, and Tailwindcss
+# Next@12 Starter Kit with TypeScript, Firebase, and Tailwindcss (v3.0)
 
 ### other useful tools and libraries
 
