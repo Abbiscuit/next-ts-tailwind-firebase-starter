@@ -5,6 +5,8 @@ import Image from 'next/image';
 import { useTheme } from 'next-themes';
 import { SunIcon, MoonIcon } from '@heroicons/react/outline';
 
+import { Button } from '@/src/components/ui';
+
 const Home: NextPage = () => {
   const [mounted, setMounted] = useState(false);
   const { theme, setTheme } = useTheme();
@@ -40,18 +42,18 @@ const Home: NextPage = () => {
             )}
           </p>
           <div className="flex flex-row items-center gap-x-1">
-            <button
+            <Button
               className="px-2 py-1 bg-gray-200 rounded-md dark:bg-gray-700"
               onClick={() => setTheme('light')}
             >
               Light Mode
-            </button>
-            <button
+            </Button>
+            <Button
               className="px-2 py-1 bg-gray-200 rounded-md dark:bg-gray-700"
               onClick={() => setTheme('dark')}
             >
               Dark Mode
-            </button>
+            </Button>
           </div>
         </div>
 
@@ -67,7 +69,7 @@ const Home: NextPage = () => {
           <a className="inline-block px-4 py-4 border rounded-md">
             <h2 className="font-mono">Tailwind &rarr;</h2>
             <img
-              src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.cb8046c163f77190406dfbf4dec89848.svg"
+              src="https://tailwindcss.com/_next/static/media/4.f2572f965602b909392c51212c0d9bce.jpg"
               alt="tailwind logo"
             />
           </a>
